@@ -75,7 +75,7 @@ def plot_footprint(energy_mt):
 # ---------------------
 # Streamlit UI
 # ---------------------
-st.title("☄️ Asteroid Impact Simulator")
+st.title("Asteroid Impact Simulator")
 
 st.sidebar.header("Asteroid Parameters")
 diameter_m = st.sidebar.slider("Diameter (m)", 10.0, 2000.0, 100.0, 10.0)
